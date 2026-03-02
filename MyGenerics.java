@@ -1,6 +1,9 @@
 public class MyGenerics {
 
     public static void main(String[] args) {
+        
+        // object of Myclass
+
 		MyClass<Integer> m = new MyClass<>(200);
 		
 		MyClass<Integer> m2 = new MyClass<>(200);
@@ -16,6 +19,7 @@ public class MyGenerics {
     
 }
 
+// Bound class type
 
 class MyClass<E extends Number>{
     E value;
